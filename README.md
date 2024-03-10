@@ -1,19 +1,15 @@
 # SpectAcle
 
-This repository reports the code and the benchmarks for the paper "SpectAcle: Fault Localisation of AI-Enabled CPS by Exploiting Sequences of DNN Controller Inferences".
+This repository reports the source code and the twelve benchmarks for the paper "SpectAcle: Fault Localisation of AI-Enabled CPS by Exploiting Sequences of DNN Controller Inferences".
 
 ## System requirement
 
 - Operating system: Linux or MacOS;
-
-- Matlab (Simulink/Stateflow) version: >= 2020a. (Matlab license needed)
-
+- Matlab (Simulink/Stateflow) version: >= 2021a. (Matlab license needed)
 - Python version: >= 3.3
-
 - MATLAB toolboxes dependency: 
   1. [Simulink](https://www.mathworks.com/products/simulink.html)
   2. [Deep Learning Toolbox](https://www.mathworks.com/products/deep-learning.html) 
-
 
 ## Installation
 
@@ -21,6 +17,7 @@ This repository reports the code and the benchmarks for the paper "SpectAcle: Fa
   1. start matlab, set up a C/C++ compiler using the command `mex -setup`. (Refer to [here](https://www.mathworks.com/help/matlab/matlabexternal/changing-default-compiler.html) for more details.)
   2. navigate to `breach/` in Matlab commandline, and run `InstallBreach`
 - Install Git Large File Storage
+  
   1. for linux:
      ```
      curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
@@ -33,7 +30,6 @@ This repository reports the code and the benchmarks for the paper "SpectAcle: Fa
      git lfs install
      ```
 - Retrieve the dataset stored in the form of a large file by the following command `git lfs pull`
-  
 
  ## Usage
 
